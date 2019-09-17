@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="guava-25.0-jre">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Schreibtisch/guava-25.0-jre.jar!/" />
+      <root url="jar://$USER_HOME$/Schreibtisch/okio-1.14.0.jar!/" />
+      <root url="jar://$USER_HOME$/Schreibtisch/okhttp-3.11.0.jar!/" />
+      <root url="jar://$USER_HOME$/Schreibtisch/commons-exec-1.3.jar!/" />
+      <root url="jar://$USER_HOME$/Schreibtisch/byte-buddy-1.8.15.jar!/" />
+      <root url="jar://$USER_HOME$/Schreibtisch/jauntium0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
