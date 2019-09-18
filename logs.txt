@@ -1,52 +1,33 @@
-1568033168511	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oGF3QKiY5WqO"
-1568033169281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1568033169281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1568033169281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1568033169281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1568033172320	Marionette	INFO	Listening on port 43733
-1568033172338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1568799991039	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zl2bheBOvRLe"
+1568799991498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568799991498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568799991498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568799992985	Marionette	INFO	Listening on port 40097
+1568799993045	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+JavaScript error: resource://gre/modules/Sidebar.jsm, line 14: TypeError: window.docShell is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221568747573748%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
 
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-JavaScript error: resource://devtools/client/framework/toolbox.js, line 1717: TypeError: currentPanel is undefined
-Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 75"  data: no] undefined 75
-[[Exception stack
-runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:75:12
-cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
-close@resource://gre/modules/ExtensionContent.jsm:913:14
-inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
-observe@resource://gre/modules/ExtensionContent.jsm:1016:27
-Current stack
-runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:81:9
-cleanup@resource://gre/modules/ExtensionContent.jsm:403:11
-close@resource://gre/modules/ExtensionContent.jsm:913:14
-inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:998:19
-observe@resource://gre/modules/ExtensionContent.jsm:1016:27
-]]
-console.error: "Error sending event: display-change"
-console.error: "TypeError: can't access dead object: getDOMListeners/<@resource://devtools/server/actors/inspector/event-collector.js:279:22\ngetDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:277:22\ngetListeners@resource://devtools/server/actors/inspector/event-collector.js:329:28\nhasListeners@resource://devtools/server/actors/inspector/event-collector.js:228:17\nhasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:797:21\nget _hasEventListeners@resource://devtools/server/actors/inspector/node.js:433:33\nform@resource://devtools/server/actors/inspector/node.js:259:7\nwrite@resource://devtools/shared/protocol/types.js:355:32\ntypes.addArrayType/write/<@resource://devtools/shared/protocol/types.js:220:33\nwrite@resource://devtools/shared/protocol/types.js:220:16\nwrite@resource://devtools/shared/protocol/Request.js:113:22\nwrite@resource://devtools/shared/protocol/Request.js:39:26\n_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24\ninitialize/<@resource://devtools/shared/protocol/Actor.js:46:16\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\n_onReflows@resource://devtools/server/actors/inspector/walker.js:591:12\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\n_startEventLoop@resource://devtools/server/actors/reflow.js:315:12\nnotify@resource://gre/modules/Timer.jsm:62:17\n"
-TypeError: can't access dead object: getDOMListeners/<@resource://devtools/server/actors/inspector/event-collector.js:279:22
-getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:277:22
-getListeners@resource://devtools/server/actors/inspector/event-collector.js:329:28
-hasListeners@resource://devtools/server/actors/inspector/event-collector.js:228:17
-hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:797:21
-get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:433:33
-form@resource://devtools/server/actors/inspector/node.js:259:7
-write@resource://devtools/shared/protocol/types.js:355:32
-types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:220:33
-write@resource://devtools/shared/protocol/types.js:220:16
-write@resource://devtools/shared/protocol/Request.js:113:22
-write@resource://devtools/shared/protocol/Request.js:39:26
-_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
-initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
-emit@resource://devtools/shared/event-emitter.js:190:24
-emit@resource://devtools/shared/event-emitter.js:271:18
-_onReflows@resource://devtools/server/actors/inspector/walker.js:591:12
-emit@resource://devtools/shared/event-emitter.js:190:24
-emit@resource://devtools/shared/event-emitter.js:271:18
-_startEventLoop@resource://devtools/server/actors/reflow.js:315:12
-notify@resource://gre/modules/Timer.jsm:62:17
-
-console.warn: "Got a mutation for an unexpected actor: server1.conn0.child1/domnode303, please file a bug on bugzilla.mozilla.org!"
-console.trace: 
-resource://devtools/shared/fronts/inspector.js 301 getMutations/<
+1568800040798	Marionette	INFO	Stopped listening on port 40097
