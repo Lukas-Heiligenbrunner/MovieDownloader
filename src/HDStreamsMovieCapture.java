@@ -11,7 +11,7 @@ public class HDStreamsMovieCapture {
     public void captureMovieLink(){
 
         ArrayList<String> links = new ArrayList<String>(Arrays.asList(
-                "https://hd-streams.org/movies/ritter-aus-leidenschaft-2001"));
+                "https://hd-streams.org/movies/alita-battle-angel-2019"));
 
 
         System.setProperty("webdriver.gecko.driver", "./geckodriver");

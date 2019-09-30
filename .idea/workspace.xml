@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21cb9fc-7221-4d45-86bf-4469926df98e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.8.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/client-combined-3.141.59-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/client-combined-3.141.59.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-exec-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/guava-25.0-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okhttp-3.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/okio-1.14.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ILoad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webbrowsertest/HDStreamsMovieCapture.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webbrowsertest/HDStreamsMovieCapture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webbrowsertest/HDStreamsSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webbrowsertest/HDStreamsSeries.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/webbrowsertest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webbrowsertest/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webbrowsertest/bs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webbrowsertest/bs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HDStreamsMovieCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HDStreamsMovieCapture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -113,7 +104,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
